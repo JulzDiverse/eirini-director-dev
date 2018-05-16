@@ -1,0 +1,58 @@
+{
+    "director_id": "31871bc1-cb03-4482-7277-732fa759092a",
+    "installation_id": "23befd68-d997-4e93-7e6c-b23e6f5b06c2",
+    "current_vm_cid": "54690299",
+    "current_stemcell_id": "2d6cf10a-3da9-42ec-7204-045590ab77ab",
+    "current_disk_id": "754724f8-12a4-4f0f-5887-62be3456925f",
+    "current_release_ids": [
+        "2f4a93ce-bfff-44e9-7b6c-42cf8fffacd7",
+        "671418e1-0d8f-4978-5f57-ce8eee874cae",
+        "370a96c2-1052-4a23-67c9-abf161704b80",
+        "d5fff119-65f9-40d9-562f-41d237c611b1",
+        "a109fbad-3378-4596-400d-79898e8dd2ce"
+    ],
+    "current_manifest_sha": "eb5cd5f8a5d33c78976f55d059ef63dce91708ad8bd80f1feed3d945526098052ac053bb7a4c16964dc5a394394776f6c0a67590f05a3438e0759f9caca9ae00",
+    "disks": [
+        {
+            "id": "754724f8-12a4-4f0f-5887-62be3456925f",
+            "cid": "43296795",
+            "size": 65536,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "2d6cf10a-3da9-42ec-7204-045590ab77ab",
+            "name": "bosh-softlayer-xen-ubuntu-trusty-go_agent",
+            "version": "3468.20",
+            "cid": "1846763"
+        }
+    ],
+    "releases": [
+        {
+            "id": "2f4a93ce-bfff-44e9-7b6c-42cf8fffacd7",
+            "name": "bosh",
+            "version": "264.7.0"
+        },
+        {
+            "id": "671418e1-0d8f-4978-5f57-ce8eee874cae",
+            "name": "os-conf",
+            "version": "19"
+        },
+        {
+            "id": "370a96c2-1052-4a23-67c9-abf161704b80",
+            "name": "bosh-softlayer-cpi",
+            "version": "23"
+        },
+        {
+            "id": "d5fff119-65f9-40d9-562f-41d237c611b1",
+            "name": "bosh-warden-cpi",
+            "version": "37"
+        },
+        {
+            "id": "a109fbad-3378-4596-400d-79898e8dd2ce",
+            "name": "garden-runc",
+            "version": "1.9.4"
+        }
+    ]
+}
